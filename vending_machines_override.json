@@ -4,6 +4,8 @@
     "id": "f_vending_c",
     "name": "vending machine",
     "copy-from": "f_vending_c",
+    "symbol": "{",
+    "color": "light_cyan",
     "bash": {
       "str_min": 999,
       "str_max": 999,
