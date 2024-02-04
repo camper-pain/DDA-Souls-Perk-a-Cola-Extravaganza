@@ -26,15 +26,15 @@
       [ "purple_drink", 45 ],
       [ "herbal_tea", 30 ],
       [ "V8", 15 ],
-	  [ "speed_cola", 10 ],
-	  [ "stamin_up", 10 ],
-	  [ "amm_o_matic", 10 ],
-	  [ "deadshot_daiquiri", 10 ],
-	  [ "tufbrew", 10 ],
-	  [ "juggernog", 10 ],
-	  [ "death_perception", 10 ],
-	  [ "revive_soda", 10 ],
-	  [ "double_tap_beer", 10 ]
+	  [ "speed_cola", 1 ],
+	  [ "stamin_up", 1 ],
+	  [ "amm_o_matic", 1 ],
+	  [ "deadshot_daiquiri", 1 ],
+	  [ "tufbrew", 1 ],
+	  [ "juggernog", 1 ],
+	  [ "death_perception", 1 ],
+	  [ "revive_soda", 1 ],
+	  [ "double_tap_beer", 1 ]
     ]
   }
 ]
