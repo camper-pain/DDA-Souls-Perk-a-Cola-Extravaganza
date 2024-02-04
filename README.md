@@ -1,6 +1,6 @@
 Just a simple mod adding a number of different drinks styled after the COD Zombies Perk-A-Colas with various effects. 
 
-So far, 8/11 Colas have been implemented. They have a chance to be found inside of drinks vending machines and bought for old world money (or smash and grabbed, if you're a psychopath).
+So far, 8/11 Colas have been implemented. They have a chance to be found inside of drinks vending machines and bought for old world money. As a side effect, you also WILL have to pay for things in vending machines now~
 
 Implemented so far:
   - Stamin-Up - 500% Stamina Regeneration for 7 Days
