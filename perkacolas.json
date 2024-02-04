@@ -285,7 +285,7 @@
   },
   {
     "type": "COMESTIBLE",
-    "id": "doube_tap_beer",
+    "id": "double_tap_beer",
     "looks_like": "cola",
     "name": "Double Tap Root Beer",
     "weight": "250 g",
