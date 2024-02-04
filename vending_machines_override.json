@@ -1,5 +1,21 @@
 [
-  {
+   {
+    "type": "furniture",
+    "id": "f_vending_c",
+    "name": "vending machine",
+    "copy-from": "f_vending_c",
+    "bash": {
+      "str_min": 999,
+      "str_max": 999,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 12,
+      "furn_set": "f_vending_o",
+      "items": [ { "item": "glass_shard", "count": [ 25, 50 ] } ]
+    }
+   },
+   {
     "type": "item_group",
     "id": "vending_drink_items",
     "items": [
@@ -26,15 +42,15 @@
       [ "purple_drink", 45 ],
       [ "herbal_tea", 30 ],
       [ "V8", 15 ],
-	  [ "speed_cola", 1 ],
-	  [ "stamin_up", 1 ],
-	  [ "amm_o_matic", 1 ],
-	  [ "deadshot_daiquiri", 1 ],
-	  [ "tufbrew", 1 ],
-	  [ "juggernog", 1 ],
-	  [ "death_perception", 1 ],
-	  [ "revive_soda", 1 ],
-	  [ "double_tap_beer", 1 ]
+	  [ "speed_cola", 10 ],
+	  [ "stamin_up", 10 ],
+	  [ "amm_o_matic", 10 ],
+	  [ "deadshot_daiquiri", 10 ],
+	  [ "tufbrew", 10 ],
+	  [ "juggernog", 10 ],
+	  [ "death_perception", 10 ],
+	  [ "revive_soda", 10 ],
+	  [ "double_tap_beer", 10 ]
     ]
   }
 ]
