@@ -1,0 +1,66 @@
+[
+ {
+    "type": "effect_type",
+    "id": "speed_cola_effect",
+    "name": [ "Speed Cola" ],
+    "desc": [ "Drinking that Speed Cola has made you feel like you could run a mile a minute!" ],
+	"remove_message": "You feel yourself slowing down again...",
+    "base_mods": { "speed_mod": [ 80 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "stamin_up_effect",
+    "name": [ "Stamin-Up" ],
+	"desc": [ "Drinking that Stamin-Up makes you feel like you could run forever!" ],
+	"remove_message": "Strangely, it feels like running takes actual effort once more.",
+	"enchantments": [ "stamin_up_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "deadshot_daiquiri_effect",
+    "name": [ "Deadshot Daiquiri" ],
+	"desc": [ "A few sips of Deadshot Daiquiri, and your hands almost automatically aim at the head of whatever you're aiming at!" ],
+	"remove_message": "Seems like you're gonna have to put actual effort into aiming again.",
+	"enchantments": [ "deadshot_daiquiri_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "tufbrew_effect",
+    "name": [ "Tufbrew" ],
+	"desc": [ "Drinking that Tufbrew has made you feel like you could go 12 rounds against Muhammed Ali." ],
+	"remove_message": "Your confidence in holding up in a championship match seems to fade.",
+	"enchantments": [ "tufbrew_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "juggernog_effect",
+    "name": [ "Juggernog" ],
+    "desc": [ "Drinking that Juggernog makes you feel healthier like you ever did!" ],
+	"remove_message": "Did all those cuts always hurt so much?",
+    "enchantments": [ "juggernog_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "death_perception_effect",
+    "name": [ "Death Perception Soda" ],
+    "desc": [ "Drinking the Death Perception Soda lets you see things you previously couldn't." ],
+	"remove_message": "All of a sudden, it feels like you've lost one of your senses.",
+    "enchantments": [ "death_perception_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "revive_soda_effect",
+    "name": [ "Quick Revive Soda" ],
+    "desc": [ "Drinking the Quick Revive Soda makes your wounds close before your eyes!" ],
+	"remove_message": "You feel that invigorating energy leave your body again.",
+    "enchantments": [ "revive_soda_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "double_tap_beer_effect",
+    "name": [ "Double Tap Root Beer" ],
+    "desc": [ "Spinning that revolver has never felt that easy before!" ],
+	"remove_message": "Was getting ready to shoot always this difficult?",
+    "enchantments": [ "double_tap_beer_enchant" ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "perkacola",
+    "name": "<color_green>Perk-A-Cola Extravaganza</color>",
+    "authors": [ "sellin_my_soul" ],
+    "description": "Adds a variety of drinks inspired by COD Zombies' Perk-A-Colas, if it wasn't obvious yet.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

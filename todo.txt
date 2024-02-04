@@ -1,0 +1,12 @@
+Mule Kick - +5 STR Increase for 72hrs
+Bandolier Bandit - 15kg Carry Weight Increase for 7 days
+Blood Wolf Bite - Spawn friendly dog(s)/wolf/wolves (Use Magic Spell)
+
+DONE - Stamin-Up - Stamina Regen Increase for 7 days
+DONE - Deadshot Daiquiri - Accuracy Increase (weapon_dispersion enchantment, negative value) for 72 hours
+DONE - Amm-O-Matic - Spawn large amounts of random ammo (Use Magic Spell "spawn_group", possibly ammo_common or ammo_milspec?)
+DONE - Tufbrew - +10 Armor for 72 hrs (Enchantment armor_bullet/bash/stab/acid/cut/elec, add as negative)
+DONE - Juggernog - High Body Part HP Increase for 48 hrs
+DONE - Death Perception - Enemy Detection for 24/48hrs (motion_vision_range enchantment, reveals all monsters as ? within specified radius)
+DONE - Quick Revive - Health Regen for 24hrs
+DONE - Double Tap Root Beer - Aim Time Decrease? (Maybe attack_speed enchantment) Recoil decrease (recoil_modifier enchantment) for 72 hours

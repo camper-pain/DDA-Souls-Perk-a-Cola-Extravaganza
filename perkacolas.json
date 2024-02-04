@@ -1,0 +1,324 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "speed_cola",
+    "looks_like": "cola",
+    "name": "Speed Cola",
+    "weight": "250 g",
+    "color": "light_green",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A dark-green fizzy drink. You still remember the old jingle - 'Just take a sip, you will move faster, just try it now!' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug", 
+		"activation_message": "You chug the Speed Cola like it's going out of style.", 
+		"effects": [
+			{
+				"id": "speed_cola_effect",
+				"duration": 604800
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "stamin_up",
+    "looks_like": "cola",
+    "name": "Stamin-Up",
+    "weight": "250 g",
+    "color": "yellow",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A yellow-hued soda. You still remember the old jingle - 'Let's run the extra mile! I'll make it worth your while!' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug", 
+		"activation_message": "You chug the Stamin-Up like it's going out of style.", 
+		"effects": [ 
+			{ 	
+				"id": "stamin_up_effect",
+				"duration": 604800
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "deadshot_daiquiri",
+    "looks_like": "cola",
+    "name": "Deadshot Daiquiri",
+    "weight": "250 g",
+    "color": "white",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A white-ish non-alcoholic cocktail. You still remember the old jingle - 'In deadshot heaven, we pop skulls for fun! Zero in baby, zero on that spot!' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug", 
+		"activation_message": "You chug the Stamin-Up like it's going out of style.", 
+		"effects": [ 
+			{ 	
+				"id": "deadshot_daiquiri_effect",
+				"duration": 259200
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "amm_o_matic",
+    "looks_like": "cola",
+    "name": "Amm-O-Matic",
+    "weight": "250 g",
+    "color": "white",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A simple milk drink. You still remember the old jingle - 'Buy an Amm-O-Matic and you too can see what it feels like to hold the power of the gods in your hands!' Let's hope it didn't expire...",
+    "price": 1500000,
+    "price_postapoc": 1500000,
+    "material": [ "junk" ],
+    "primary_material": "milk",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "effect_on_conditions",
+		"effect_on_conditions": [ "amm_o_matic_spawn" ]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tufbrew",
+    "looks_like": "cola",
+    "name": "Tufbrew",
+    "weight": "250 g",
+    "color": "brown",
+    "fatigue_mod": 24,
+    "stim": -4,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A classic, thick wheat beer. Due to how new it was, you never really heard its jingle, but just the smell makes you feel like you could take on the world. Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk", "alcohol", "water" ],
+    "primary_material": "alcohol",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"addiction_type": "alcohol",
+	"addiction_potential": 1,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Tufbrew like it's going out of style.",
+		"effects": [
+			{
+				"id": "tufbrew_effect",
+				"duration": 259200
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "juggernog",
+    "looks_like": "cola",
+    "name": "Juggernog",
+    "weight": "250 g",
+    "color": "red",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A strawberry-flavoured soda. You still remember the old jingle - 'When you need to feel big and strong, reach for Juggernog tonight!' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Juggernog like it's going out of style.",
+		"effects": [
+			{
+				"id": "juggernog_effect",
+				"duration": 172800
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "death_perception",
+    "looks_like": "cola",
+    "name": "Death Perception Soda",
+    "weight": "250 g",
+    "color": "yellow",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "An orange-y soda. You still remember the old jingle - 'Some say seek and you will find. Just don't let this blow your mind. And when you need precision, we'll enhance your vision. Death Perception!' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Death Perception Soda like it's going out of style.",
+		"effects": [
+			{
+				"id": "death_perception_effect",
+				"duration": 86400
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "revive_soda",
+    "looks_like": "cola",
+    "name": "Quick Revive Soda",
+    "weight": "250 g",
+    "color": "brown",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A classic, cola-like soft drink. You still remember the old jingle - 'When everything's, been draggin' you down, grabs you by the hair and pulls you to the ground, if you wanna get up, you need a little revive. If you wanna get up... YOU NEED A LITTLE REVIIIIIIVE!...YEAH! ' Let's hope it didn't expire...",
+    "price": 1000000,
+    "price_postapoc": 1000000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Quick Revive Soda like it's going out of style.",
+		"effects": [
+			{
+				"id": "revive_soda_effect",
+				"duration": 86400
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "doube_tap_beer",
+    "looks_like": "cola",
+    "name": "Double Tap Root Beer",
+    "weight": "250 g",
+    "color": "brown",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A simple root beer, albeit with a coppery aftertaste. You still remember the old jingle - 'Cowboys can't shoot slow, or they'll end up below, when they need some help, they reach for the root beer shelf.' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk", "alcohol", "water" ],
+    "primary_material": "alcohol",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"addiction_type": "alcohol",
+	"addiction_potential": 1,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Double Tap Root Beer like it's going out of style.",
+		"effects": [
+			{
+				"id": "double_tap_beer_effect",
+				"duration": 259200
+			}
+		]
+	}
+  }
+]
