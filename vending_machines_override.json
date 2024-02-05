@@ -4,8 +4,8 @@
     "id": "f_vending_c",
     "name": "vending machine",
     "copy-from": "f_vending_c",
-    "symbol": "{",
-    "color": "light_cyan",
+	"symbol": "{",
+	"color": "light_cyan",
     "bash": {
       "str_min": 999,
       "str_max": 999,
@@ -52,7 +52,10 @@
 	  [ "juggernog", 10 ],
 	  [ "death_perception", 10 ],
 	  [ "revive_soda", 10 ],
-	  [ "double_tap_beer", 10 ]
-    ]
-  }
+	  [ "double_tap_beer", 10 ],
+	  [ "bandolier_bandit", 10 ],
+	  [ "mule_kick_beer", 10 ],
+	  [ "blood_wolf_bite", 10 ]
+			]
+	}
 ]

@@ -81,5 +81,23 @@
 				"value": "RECOIL_MODIFIER", "multiply": -0.5
 			}
 		]
+	},
+	{
+		"type": "enchantment",
+		"id": "bandolier_bandit_enchant",
+		"values": [ 
+			{ 
+				"value": "CARRY_WEIGHT", "add": 50000
+			}
+		]
+	},
+	{
+		"type": "enchantment",
+		"id": "mule_kick_enchant",
+		"values": [ 
+			{ 
+				"value": "STRENGTH", "add": 5
+			}
+		]
 	}
 ]

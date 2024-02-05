@@ -62,5 +62,40 @@
     "desc": [ "Spinning that revolver has never felt that easy before!" ],
 	"remove_message": "Was getting ready to shoot always this difficult?",
     "enchantments": [ "double_tap_beer_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "bandolier_bandit_effect",
+    "name": [ "Bandolier Bandit Soda" ],
+    "desc": [ "Sisyphus would be envious of your strength!" ],
+	"remove_message": "Were your clothes always this heavy?",
+    "enchantments": [ "bandolier_bandit_enchant" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "mule_kick_effect",
+    "name": [ "Mule Kick Cerveza" ],
+    "desc": [ "You feel like Atlas carrying the world on your shoulder!" ],
+	"remove_message": "That sense of responsibility and strength fade away.",
+    "enchantments": [ "mule_kick_enchant" ]
+  },
+  {
+    "type": "SPELL",
+    "id": "blood_wolf_spell",
+    "name": "Blood Wolf Bite",
+    "description": "That big puppy certainly looks nice to you!",
+	"valid_targets": "ground",
+	"effect": "summon",
+	"effect_str": "mon_wolf_mutant_huge",
+	"shape": "blast",
+    "flags": [ "SILENT", "NO_LEGS", "HOSTILE_0", "NO_HANDS", "NO_EXPLOSION_SFX" ],
+	"min_damage": 1,
+	"max_damage": 3,
+	"min_duration": 86400,
+	"max_duration": 86400,
+	"min_range": 1,
+	"max_range": 1,
+	"min_aoe": 1,
+	"max_aoe": 1
   }
 ]

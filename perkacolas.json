@@ -320,5 +320,111 @@
 			}
 		]
 	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "bandolier_bandit",
+    "looks_like": "cola",
+    "name": "Bandolier Bandit Soda",
+    "weight": "250 g",
+    "color": "red",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A cherry-flavoured soda. You still remember the old jingle - 'To the town of Agua Fria rode a stranger one fine day, hardly spoke to folks around him, didn't have too much to say. Noone dared to ask his business, noone dared to make a slip, for the stranger there among them had a big band' on his hip!' Let's hope it didn't expire...",
+    "price": 1000000,
+    "price_postapoc": 1000000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Bandolier Bandit Soda like it's going out of style.",
+		"effects": [
+			{
+				"id": "bandolier_bandit_effect",
+				"duration": 604800
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "mule_kick_beer",
+    "looks_like": "cola",
+    "name": "Mule Kick Cerveza",
+    "weight": "250 g",
+    "color": "brown",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A strong Pilsner-like beer. You still remember the old jingle - 'ARRIIIBAA!!! QUE PASA!!! When you're 'round Louisiana, Nawlins or Texarkana. Lord you want more firepower, MULE KICK! (Hee-Haw, Hee-Haw).' Let's hope it didn't expire...",
+    "price": 500000,
+    "price_postapoc": 500000,
+    "material": [ "junk", "alcohol", "water" ],
+    "primary_material": "alcohol",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"addiction_type": "alcohol",
+	"addiction_potential": 1,
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You chug the Mule Kick Cerveza like it's going out of style.",
+		"effects": [
+			{
+				"id": "mule_kick_effect",
+				"duration": 259200
+			}
+		]
+	}
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "blood_wolf_bite",
+    "looks_like": "cola",
+    "name": "Blood Wolf Bite Shake",
+    "weight": "250 g",
+    "color": "red",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 10,
+    "healthy": -1,
+    "calories": 150,
+    "description": "A strawberry-chocolate milkshake. You still remember the old jingle - 'I've gotten too old to outrun my mistake, I'm too tired to grapple with revenge, so let me be by your side - Blood Wolf!' Let's hope it didn't expire...",
+    "price": 1000000,
+    "price_postapoc": 1000000,
+    "material": [ "junk" ],
+    "primary_material": "water",
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "NO_AUTO_CONSUME" ],
+    "fun": 5,
+	"use_action": { 
+		"type": "cast_spell",
+		"spell_id": "blood_wolf_spell",
+		"no_fail": true,
+		"level": 0
+	}
   }
 ]
